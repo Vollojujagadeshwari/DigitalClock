@@ -79,25 +79,25 @@ function clock(){
     switch(day)
     {
         case 0:day="Sunday"
-        document.body.style.backgroundImage="url(./sun (1).jpg)"
+        document.body.style.backgroundImage="url(./0.jpg)"
         break;
         case 1:day="Monday"
-        document.body.style.backgroundImage="url(./mon.jpg)"
+        document.body.style.backgroundImage="url(./1.jpg)"
         break;
         case 2:day="Tuesday"
-        document.body.style.backgroundImage="url(./tue.jpg)"
+        document.body.style.backgroundImage="url(./2.jpg)"
         break;
         case 3:day="wednesday"
-        document.body.style.backgroundImage="url(./tue.jpg)"
+        document.body.style.backgroundImage="url(./3.jpg)"
         break;
         case 4:day="Thursday"
-        document.body.style.backgroundImage="url(./tue.jpg)"
+        document.body.style.backgroundImage="url(./0.jpg)"
         break;
         case 5:day="Friday"
-        document.body.style.backgroundImage="url(./tue.jpg)"
+        document.body.style.backgroundImage="url(./1.jpg)"
         break;
         case 6:day="Saturday"
-        document.body.style.backgroundImage="url(./tue.jpg)"
+        document.body.style.backgroundImage="url(./2.jpg)"
     }
     console.log(day)
     document.getElementById("time").innerHTML=`${hh}:${mm}:${am_pm}`
